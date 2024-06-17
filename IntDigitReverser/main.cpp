@@ -169,7 +169,7 @@ constexpr int32_t reverseDigits_ModuloMultiply(int32_t value) noexcept
 /// </summary>
 /// <param name="value"></param>
 /// <returns></returns>
-int reverseDigits_CharArrayStack(int32_t value) noexcept
+int32_t reverseDigits_CharArrayStack(int32_t value) noexcept
 {
 	if (value < 10 && value > -10)
 	{
@@ -205,7 +205,7 @@ int reverseDigits_CharArrayStack(int32_t value) noexcept
 /// </summary>
 /// <param name="value"></param>
 /// <returns></returns>
-int reverseDigits_CharArrayStack_RangeAlgorithm(int32_t value) noexcept
+int32_t reverseDigits_CharArrayStack_RangeAlgorithm(int32_t value) noexcept
 {
 	if (value < 10 && value > -10)
 	{
@@ -233,7 +233,7 @@ int reverseDigits_CharArrayStack_RangeAlgorithm(int32_t value) noexcept
 /// </summary>
 /// <param name="value"></param>
 /// <returns></returns>
-int reverseDigits_CharArrayHeap_SharedAlloc(int32_t value) noexcept
+int32_t reverseDigits_CharArrayHeap_SharedAlloc(int32_t value) noexcept
 {
 	if (value < 10 && value > -10)
 	{
@@ -260,7 +260,7 @@ int reverseDigits_CharArrayHeap_SharedAlloc(int32_t value) noexcept
 /// </summary>
 /// <param name="value"></param>
 /// <returns></returns>
-int reverseDigits_CharArrayHeap_AlwaysAlloc(int32_t value) noexcept
+int32_t reverseDigits_CharArrayHeap_AlwaysAlloc(int32_t value) noexcept
 {
 	if (value < 10 && value > -10)
 	{
